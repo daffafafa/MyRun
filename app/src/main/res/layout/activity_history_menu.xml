@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/HistoryMenuList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="20sp"
+    tools:context=".HistoryMenu">
+
+    <Button
+        android:id="@+id/allTimeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="allTime"
+        android:text="@string/all_time_summary_button" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ThisMonth"
+        android:text="@string/this_month_summary_new" />
+
+    <Button
+        android:id="@+id/thisMonthButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="byMonth"
+        android:text="@string/this_month_summary_button" />
+
+    <Button
+        android:id="@+id/allRunsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="allRuns"
+        android:text="@string/all_runs_button" />
+</LinearLayout>
